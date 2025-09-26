@@ -1,16 +1,30 @@
-# React + Vite
+# React Redux Thunk Todos  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that demonstrates Redux Thunk by fetching data from an API and displaying it.  
 
-Currently, two official plugins are available:
+## 🚀 Features  
+- Fetch todos from JSONPlaceholder API  
+- Display a list of todos  
+- State management using Redux and Redux Thunk  
+- Loading and error handling  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack  
+- [React](https://react.dev/)  
+- [Redux](https://redux.js.org/)  
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)  
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)  
 
-## React Compiler
+## 📦 Installation  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clone the repo
+git clone https://github.com/aynoncse/react-redux-thunk.git
 
-## Expanding the ESLint configuration
+# Navigate to project folder
+cd react-redux-thunk-todos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
